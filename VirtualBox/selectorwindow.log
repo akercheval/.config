@@ -1,0 +1,32 @@
+VirtualBox GUI VM Selector Window 5.2.10_Ubuntu r121806 linux.amd64 (Apr 26 2018 08:49:04) release log
+00:00:00.484536 Log opened 2018-05-02T15:04:00.384528000Z
+00:00:00.484538 Build Type: release
+00:00:00.484544 OS Product: Linux
+00:00:00.484546 OS Release: 4.15.0-20-generic
+00:00:00.484547 OS Version: #21-Ubuntu SMP Tue Apr 24 06:16:15 UTC 2018
+00:00:00.484613 DMI Product Name: 20266
+00:00:00.484622 DMI Product Version: Lenovo Yoga 2 Pro
+00:00:00.484723 Host RAM: 7886MB (7.7GB) total, 5905MB (5.7GB) available
+00:00:00.484730 Executable: /usr/lib/virtualbox/VirtualBox
+00:00:00.484730 Process ID: 11530
+00:00:00.484731 Package type: LINUX_64BITS_GENERIC (OSE)
+00:00:00.484790 Qt version: 5.9.5
+00:00:00.513092 GUI: UIMediumEnumerator: Medium-enumeration started...
+00:00:00.513105 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:00:00.515040 GUI: UIMediumEnumerator: Medium-enumeration started...
+00:00:00.515050 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:00:00.744261 GUI: UIDesktopWidgetWatchdog::sltHandleHostScreenAvailableGeometryCalculated: Screen 0 work area is actually resized to: 0x0 x 3200x1800
+00:00:08.456633 GUI: UIMediumEnumerator: Medium-enumeration started...
+00:00:08.456767 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:00:34.559546 GUI: UIMediumEnumerator: Medium with key={ab7aff82-4bca-43a8-b206-d568817f6574} created
+00:00:34.771214 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:00:37.161162 GUI: UIMediumEnumerator: Medium-enumeration started...
+00:00:37.359056 2D support test succeeded
+00:00:37.419029 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:01:12.094146 GUI: UIMediumEnumerator: Medium with key={50390a83-dfca-45ba-bcb0-021ce04ace73} created
+00:01:14.538066 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:01:27.437951 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:01:32.148117 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:02:49.948115 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:02:50.655803 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:02:50.695465 GUI: UIMediumEnumerator: Medium-enumeration finished!
