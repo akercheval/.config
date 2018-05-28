@@ -6,5 +6,8 @@ alias open='xdg-open'
 alias espy='/home/adam/Documents/espy/pypy-c'
 alias bye='openbox --exit'
 alias ciao='sudo shutdown now'
+alias wifi='wicd-client'
+alias autostart='gvim /home/adam/.config/openbox/autostart'
+alias rc='gvim /home/adam/.config/openbox/rc.xml'
 
 thefuck --alias | source

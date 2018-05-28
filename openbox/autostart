@@ -16,13 +16,13 @@
 #
 #xfce-mcs-manager &
 
-# Start wallpaper
 feh --bg-scale /home/adam/wallpaper/bkd.png &
-if which tint2 >/dev/null 2>&1; then
-  (sleep 2 && xcompmgr) &
-  (sleep 2 && tint2) &
-fi
+xcompmgr &
 synclient vertscrolldelta=-50
-plank &
 xfce4-volumed &
-xautolock -time 5 -locker slock -corners -000
+gconftool-2 --set /apps/gnome_settings_daemon/plugins/background/active --type bool False &
+xautolock -time 60 -locker slock -corners ---- &
+/home/adam/catclock/xclock -bg "#E4C7C9" -catcolor "#483950" -hands "#483950" -ntails 300 &
+conky &
+setxkbmap -layout "us,bg(bas_phonetic)" -option "grp:alt_shift_toggle" &
+

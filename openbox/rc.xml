@@ -254,8 +254,6 @@
     <!--<keybind key="A-F4">
       <action name="Close"/>
     </keybind>-->
-
-
     <!--Adam below-->
     <keybind key="W-Right">
       <action name="DesktopRight">
@@ -357,26 +355,16 @@ sh -c "pactl set-sink-mute 0 false ; pactl set-sink-volume 0 -5%"
         <action name="UnmaximizeFull"/>
         <action name="MoveResizeTo"><x>-0</x><y>0</y><height>97%</height><width>50%</width></action>
     </keybind>
-
-
-
-
-
-
-
-
-
-
     <keybind key="A-Escape">
       <action name="Lower"/>
       <action name="FocusToBottom"/>
       <action name="Unfocus"/>
     </keybind>
-    <keybind key="A-space">
-      <action name="ShowMenu">
-        <menu>client-menu</menu>
+    <!--<keybind key="A-space">
+      <action name="Execute">
+        <command>conky -c .config/conky/conky.conf -b</command>
       </action>
-    </keybind>
+    </keybind>-->
     <!-- Take a screenshot of the current window with scrot when Alt+Print are pressed -->
     <keybind key="A-Print">
       <action name="Execute">
@@ -713,7 +701,7 @@ sh -c "pactl set-sink-mute 0 false ; pactl set-sink-volume 0 -5%"
       </mousebind>
     </context>
     <context name="Desktop">
-      <mousebind button="Up" action="Click">
+      <!--<mousebind button="Up" action="Click">
         <action name="GoToDesktop">
           <to>previous</to>
         </action>
@@ -722,7 +710,7 @@ sh -c "pactl set-sink-mute 0 false ; pactl set-sink-volume 0 -5%"
         <action name="GoToDesktop">
           <to>next</to>
         </action>
-      </mousebind>
+      </mousebind>-->
       <mousebind button="A-Up" action="Click">
         <action name="GoToDesktop">
           <to>previous</to>
@@ -831,6 +819,12 @@ sh -c "pactl set-sink-mute 0 false ; pactl set-sink-volume 0 -5%"
       </position>
     </application>
     -->
+    <application name="xclock">
+     <position force="yes">
+         <x>3000</x> 
+         <y>50</y>
+     </position>
+    </application>
     <application class="*">
       <decor>no</decor>
     </application>
