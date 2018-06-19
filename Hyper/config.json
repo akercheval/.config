@@ -1,14 +1,14 @@
 {
 	"windowPosition": [
-		157,
-		152
+		266,
+		207
 	],
 	"windowSize": [
-		542,
-		382
+		668,
+		498
 	],
 	"hyper": {
-		"plugins": "{\"plugins\":[],\"localPlugins\":[]}",
-		"plugin-versions": "[]"
+		"plugins": "{\"plugins\":[\"hyperminimal\"],\"localPlugins\":[]}",
+		"plugin-versions": "[[\"hyperminimal\",\"0.0.9\"]]"
 	}
 }

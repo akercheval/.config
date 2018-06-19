@@ -321,7 +321,7 @@ sh -c "pactl set-sink-mute 0 false ; pactl set-sink-volume 0 -5%"
     </keybind>
     <keybind key="A-T">
       <action name="Execute">
-        <command>gnome-terminal</command>
+        <command>hyper</command>
       </action>
     </keybind>
     <keybind key="A-C">
@@ -342,6 +342,11 @@ sh -c "pactl set-sink-mute 0 false ; pactl set-sink-volume 0 -5%"
     <keybind key="A-F">
       <action name="Execute">
         <command>nautilus</command>
+      </action>
+    </keybind>
+    <keybind key="A-W">
+      <action name="Execute">
+        <command>wicd-client</command>
       </action>
     </keybind>
     <keybind key="C-M">

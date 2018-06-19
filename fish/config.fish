@@ -9,5 +9,7 @@ alias ciao='sudo shutdown now'
 alias wifi='wicd-client'
 alias autostart='gvim /home/adam/.config/openbox/autostart'
 alias rc='gvim /home/adam/.config/openbox/rc.xml'
+alias dirt='cd /home/adam/Documents/twitterdirt; source creds.sh; python3 twitterdirt.py; cd'
+alias timezone='sudo dpkg-reconfigure tzdata'
 
 thefuck --alias | source

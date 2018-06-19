@@ -24,5 +24,5 @@ gconftool-2 --set /apps/gnome_settings_daemon/plugins/background/active --type b
 xautolock -time 60 -locker slock -corners ---- &
 /home/adam/catclock/xclock -bg "#E4C7C9" -catcolor "#483950" -hands "#483950" -ntails 300 &
 conky &
-setxkbmap -layout "us,bg(bas_phonetic)" -option "grp:alt_shift_toggle" &
+setxkbmap -layout "us,es" -option "grp:alt_space_toggle" &
 
